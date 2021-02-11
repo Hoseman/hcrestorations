@@ -1,0 +1,141 @@
+.top-header {
+    background:$red-burgundy;
+    width:100%;
+    height:170px;
+    padding:0rem;
+    background-image:url(/wp-content/themes/hc-restorations/images/header-bg.png);
+    background-repeat:repeat-x;
+    & .logo {
+        margin-top: -0.8rem;
+        width: 590px;
+        margin-left: auto;
+        margin-right: auto;
+        & img {
+            display:block;
+            width:100%;
+        }
+    }
+    & .top-header-links {
+        width: 100%;
+        height: 40px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,7db9e8+100&0.1+0,0+100 */
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+        & .tel {
+            font-family: 'Cinzel', serif;
+            color:$light-gold;
+            padding-left:1.3rem;
+            padding-top: 0.6rem;
+            font-size: 0.92rem;
+            float:left;
+            transition: color 0.15s ease-in;
+            &:hover {
+                color:$dark-gold;
+                text-decoration:none;
+            }
+        }
+        & i {
+            color:$light-gold;
+            font-size:1.7rem;
+            float:right;
+            padding:0.8rem 1rem 0rem 0rem;
+            transition: color 0.15s ease-in;
+            &:hover {
+                color:$dark-gold;
+            }
+        }
+    }
+    & .strapline {
+        font-family: "Cinzel", serif;
+        color: #c7a67b;
+        margin-top: 0.55rem;
+        font-size: 0.92rem;
+        letter-spacing: 0.02rem;
+        padding: 0 1rem;
+    }
+}
+.navbar {
+    background-color:$dark-burgundy;
+    padding:0;
+    & .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.4rem;
+        border-color: transparent;
+        margin-top: 0rem;
+        padding: 0rem .75rem;
+    }
+    & .navbar-toggler:active {
+        border:0;
+        outline:none;
+        box-shadow:none;
+    }
+    & .navbar-toggler:focus {
+        border:0;
+        outline:none;
+        box-shadow:none;
+    }
+    & .navbar-toggler:visited {
+        border:0;
+        outline:none;
+        box-shadow:none;
+    }
+}
+.main-nav-toggle {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $black;
+    z-index: 99;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+.navbar-nav {
+    font-family: 'Cinzel', serif;
+    margin-left: auto;
+    margin-right: auto;
+    & .nav-item .nav-link {
+        color:$light-gold;
+        padding:1.21rem;
+        font-size:0.97rem;
+        letter-spacing:0.02rem;
+        transition:background 0.15s ease-in;
+        font-weight:600;
+        &:hover {
+            background:$mid-burgundy;
+            color:$light-gold;
+        }
+        &:focus {
+            border: 0;
+            outline: 0;
+            color: $light-gold;
+        }   
+    }
+}
+.navbar-nav .active>.nav-link {
+    background:$mid-burgundy;
+    color:$light-gold !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    margin-top: -2.5rem;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity:0;
+}
+.hamburger-inner {
+    background-color:$light-gold !important;
+}
+.hamburger-inner::before {
+    background-color:$light-gold !important;
+}
+.hamburger-inner::after {
+    background-color:$light-gold !important;
+}
+.established {
+    font-family: "Cinzel", serif;
+    color: #c7a67b;
+    padding: 0;
+    margin: 0 0 -0.65rem 0;
+}

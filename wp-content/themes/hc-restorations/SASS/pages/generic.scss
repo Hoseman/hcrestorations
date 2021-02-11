@@ -1,0 +1,90 @@
+.carousel-generic {
+    margin-bottom: 0rem;
+    & .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+        height: 120px;
+    }
+    & .carousel-item {
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0) 27%, rgba(0,0,0,0) 77%, rgba(0,0,0,0.4) 100%); 
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 27%,rgba(0,0,0,0) 77%,rgba(0,0,0,0.4) 100%); 
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 27%,rgba(0,0,0,0) 77%,rgba(0,0,0,0.4) 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#1a000000',GradientType=0 ); 
+        // height: 52vh;
+        height: 39rem;
+    }
+    & .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: auto;
+        width:100%;
+    }
+}
+.three-images img {
+    width:100%;
+    margin-top:1.6rem;
+    margin-bottom:1.6rem;
+}
+.generic-heading-large {
+    font-size:2.3rem;
+    margin-top: 0.9rem;
+    margin-bottom: 1.35rem;
+}
+.generic-heading-medium {
+    font-size:1.65rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.1rem;
+}
+.generic-heading-small {
+    margin-top: 0.8rem;
+    margin-bottom: 2.1rem;
+    font-size: 1.2rem;
+}
+h1{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 20px auto;
+    line-height: 1em;
+    color:white;
+    text-transform:uppercase;
+    font-size:2.2rem;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 20px auto;
+    line-height: 1.3em;
+    color:white;
+    text-transform:uppercase;
+    font-size:1.5rem;
+    justify-content: center;
+}
+.heading:before, .heading:after,
+.heading-ie span.after, .heading-ie span.before {
+    content: '';
+    flex-grow: 1;
+    margin: 0px 20px;
+    background: linear-gradient(to right, $dark-gold, $dark-gold);
+    background-size: 100% 2px;
+    background-position: 0% 50%;
+    background-repeat: repeat-x;
+  }
+.heading-no-underline {
+    font-family: 'PT Serif', serif;
+    text-transform:none;
+}
+.generic-content img {
+    width:100%;
+    border: 1px solid $dark-gold;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.floral-symbol, .symbol-top {
+    width: 120px !important;
+    border: 0 !important;
+}

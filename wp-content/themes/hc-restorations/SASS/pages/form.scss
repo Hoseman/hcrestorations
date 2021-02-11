@@ -1,0 +1,88 @@
+.page-template-page-contact .contact-form {
+    padding-left:2rem;
+    padding-right:2rem;
+}
+.contact-form {
+    padding-left:1rem;
+    padding-right:1rem;
+    & input {
+        border-radius:0;
+        margin-bottom:0.5rem;
+        padding:0.75rem;
+        height: calc(2.5em + .75rem + 2px);
+        border:0;
+        color:#000;
+    } 
+    & select {
+        border-radius:0;
+        margin-bottom:0.5rem;
+        padding:0.75rem;
+        height: calc(2.5em + .75rem + 2px);
+        border:0;
+        color:#888;
+        -webkit-appearance: none;
+        background:$white;
+        outline:0;
+    }
+    & textarea {
+        border-radius:0;
+        margin-bottom:0.5rem;
+        padding:0.75rem;
+        border:0;
+        height: 16.55rem;
+    }
+    & label {
+        width:100%;
+    }
+    & .wpcf7-submit {
+        background:$dark-gold;
+        color:$white;
+        font-family: 'Cinzel', serif;
+        padding: 1rem 5rem;
+        margin: 0.4rem 0 1.4rem 0;
+        &:hover {
+            background:$darker-gold;
+        }
+        &:focus {
+            box-shadow: none;
+            outline:0;
+        }
+    }
+    & .col-lg-6 {
+        padding-left:9px;
+        padding-right:9px;
+    }
+    & .wpcf7 {
+        width:100%;
+        & label {
+            width:100%;
+            & input {
+                width:100%;
+            }
+            & select {
+                width:100%;
+            }
+        }
+    }
+    & .wpcf7-not-valid-tip {
+        color: $dark-gold;
+        font-size: 1em;
+        font-weight: normal;
+        display: block;
+        text-align: left;
+        font-style: italic;
+    }
+    & .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+        border-color:$dark-gold;
+        margin: 0em 0em 2.5rem 0rem;
+    }
+    & .wpcf7 form.sent .wpcf7-response-output {
+        border-color:$dark-gold;
+        margin: 0em 0em 2.5rem 0rem;
+    }   
+}
+div.wpcf7 .ajax-loader {
+    display: block !important;
+    margin-left:auto;
+    margin-right:auto;
+} 

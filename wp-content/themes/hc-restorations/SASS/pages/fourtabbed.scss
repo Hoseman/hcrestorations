@@ -1,0 +1,93 @@
+.fourtabbed {
+    margin-top:2rem;
+    margin-bottom:2rem;
+    justify-content:left;
+    & .fourtabbedbox {
+        // height:303px;
+        height:auto;
+        overflow:hidden;
+        & a {
+            text-decoration:none;
+        }
+        & img {
+            transition: transform 0.5s ease;
+            width:100%;
+        }
+        & .fourtabbed-heading {
+            background:$dark-gold;
+            font-size: 0.90rem;
+            padding: 1rem 0.4rem;
+            transition:background 0.15s ease-in;
+            &:hover {
+                background:$darker-gold;
+                text-decoration:none;
+            }
+        }
+    }
+    & .fourtabbedbox:hover img {
+        transform:scale(1.03);
+        filter: grayscale(100%);
+        text-decoration:none;
+    }
+    & .fourtabbedbox .gallery-image-hover {
+        display:none;
+        opacity:0;
+        transition:all 0.3s ease-in;
+        // & a {
+        //     border 2px solid $white;
+        //     padding:1rem;
+        // }
+    }
+    & .fourtabbedbox .gallery-image-hover a {
+            border: 1px solid $white;
+            padding:0.4rem 1rem;
+            transition:background 0.15s ease-in;
+            &:hover {
+                // background:red;
+                background:rgba(0, 0, 0, 0.3);
+            }
+            &:active {
+                color:$white;
+            }
+            &:focus {
+                color:$white;
+            }
+            &:visited {
+                color:$white;
+            }
+    }
+    & .fourtabbedbox:hover .gallery-image-hover {
+        font-family: 'Cinzel', serif;
+        background:$dark-gold;
+        display:block;
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        bottom: 0rem;
+        padding: 4rem 1rem;
+        // padding: 0rem;
+        z-index: 10;
+        opacity:0.9;
+        animation-name: gallery-transition;
+        animation-duration: 0.5s;
+    }
+    @keyframes gallery-transition {
+        from {opacity: 0; padding:0rem 1rem}
+        to {opacity: 0.9; padding: 4rem 1rem;} 
+      }
+    & .fourtabbedbox:hover .fourtabbed-heading {
+        background:$darker-gold;
+    }
+    & .col-lg-4 {
+        padding-left:8px;
+        padding-right:8px;
+    }
+    & .col-lg-3 {
+        padding-left:8px;
+        padding-right:8px;
+    }
+    & .col-md-3 {
+        padding-left:8px;
+        padding-right:8px;
+    }
+}

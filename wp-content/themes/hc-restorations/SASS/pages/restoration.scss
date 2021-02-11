@@ -1,0 +1,15 @@
+.restoration-list {
+    margin-left:-38px;
+    & li {
+        display:inline;
+        &::before {
+            content: "•";
+            color:$light-gold;
+            padding-left:0.5rem;
+            padding-right:0.5rem;
+        }
+    }
+    & li:first-child::before {
+        display:none;
+    }
+}

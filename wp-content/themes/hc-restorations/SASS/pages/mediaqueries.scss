@@ -1,0 +1,433 @@
+@media only screen and (max-width: 2150px){
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 35rem;
+    }
+    .carousel .carousel-item {
+        height: 48rem;
+    }
+}
+@media only screen and (max-width: 1850px){
+    .carousel .carousel-item {
+        height: 42.8rem;
+    }
+}
+@media only screen and (max-width: 1450px){
+    .carousel .carousel-item {
+        height: 38.1rem;
+    }
+    .main-content-inner {
+        max-width: 1100px;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.85rem;
+        padding: 1rem 0.2rem;
+    }
+    .fourtabbed .fourtabbedbox:hover .gallery-image-hover {
+        padding: 2.8rem 1rem;
+    }
+    @keyframes gallery-transition {
+        from {opacity: 0; padding:0rem 1rem}
+        to {opacity: 0.9; padding: 2.8rem 1rem;} 
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 35vh;
+    }
+    .page-title-underline-90 {
+        width: 28%;
+    }
+    .page-title-underline-52 {
+        width: 31%;
+    }
+    .news-excerpt p {
+        min-height: 3.55rem;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .carousel .carousel-item {
+        height: 33.9rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.21rem 0.95rem;
+        font-size: 0.9rem;
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 31rem;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .carousel .carousel-item {
+        height: 29rem;
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 27rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.21rem 0.74rem;
+        font-size: 0.78rem;
+    }
+    .single .main-content {
+        padding-top: 0.1rem;
+    }
+    .main-content-inner {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .page-title-underline-90 {
+        width: 20%;
+    }
+    .page-title-underline-52 {
+        width: 25%;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.75rem;
+        padding: 1rem 0.6rem;
+    }
+    .fourtabbed .fourtabbedbox:hover .gallery-image-hover {
+        padding: 2.3rem 1rem;
+        & p {
+            font-size:0.9rem;
+            line-height:1.25rem;
+        }
+    }
+    @keyframes gallery-transition {
+        from {opacity: 0; padding:0rem 1rem}
+        to {opacity: 0.9; padding: 2.3rem 1rem;} 
+    }
+    .page-title {
+        width: 32%;
+        display: inline;
+    }
+    .footer p {
+        font-size: 0.85rem;
+    }
+    .footer ul li {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .carousel .carousel-item {
+        height: 28.5rem;
+        & .home-carousel-img {
+            height: 460px;
+            object-fit: cover;
+        }
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 21rem;
+    }
+    .navbar {
+        background-color:transparent;
+        background-image:url(/wp-content/themes/hc-restorations/images/header-bg.png);
+        
+        background-repeat:repeat-x;
+    }
+    .navbar-nav .active > .nav-link {
+        background: $dark-burgundy;
+        color: rgb(199, 166, 123) !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+        background: $dark-burgundy;
+        border-bottom:1px solid #4e2018;
+        padding: 0.95rem 0.5rem;
+        font-size: 0.95rem;
+    }
+    .page-title {
+        width: 40%;
+        display: inline;
+    }
+    .page-title-underline-90 {
+        width: 20%;
+    }
+    .top-header .logo {
+        margin-top: 0.55rem;
+    }
+    .top-header {
+        height: 175px;
+    }
+    .fourtabbed .fourtabbedbox {
+        height: auto;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.95rem;
+        padding: 1rem 0.4rem;
+        margin-bottom: 1rem;
+    }
+    .main-nav-toggle {
+        position: relative;
+    }
+    .contact-form {
+        padding-left: 0.95rem;
+        padding-right: 0.95rem;
+    }
+    .web-design {
+        text-align:left;
+    }
+    .news-excerpt p {
+        min-height: 4.1rem;
+    }
+    .footer ul {
+        margin-top: 6.3rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .carousel .carousel-item {
+        height: 24.5rem;
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 22rem;
+    }
+    .carousel-generic .carousel-item > img {
+        object-fit: cover;
+        height: 352px;
+    }
+    .top-header .logo {
+        width: 520px;
+    }
+    .footer ul {
+        text-align: left;
+        margin-left: -38px;
+    }
+    .news-sidebar {
+        padding-left: 1.6rem;
+    }
+    .news-sidebar h4 {
+        font-size:1.3rem;
+    }
+    .news-sidebar p {
+        font-size:0.95rem;
+    }
+    .footer hr {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .fourtabbed .fourtabbedbox:hover .gallery-image-hover {
+        padding: 2.7rem 1rem;
+    }
+    @keyframes gallery-transition {
+        from {opacity: 0; padding:0rem 1rem}
+        to {opacity: 0.9; padding: 2.7rem 1rem;} 
+    }
+}
+@media only screen and (max-width: 767px){
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: none;
+    }
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 18.5rem;
+    }
+    .page-title {
+        width: 59%;
+        display: inline;
+    }
+    .page-title-underline-90 {
+        width: 15%;
+    }
+    .news-sidebar {
+        border-left: 0px solid #906a4c;
+        padding-left: 15px;
+        border-top: 1px solid #906a4c;
+        padding-top: 2.4rem;
+        margin-top: 1.5rem;
+    }
+    .carousel-news .carousel-item > img {
+        top: -120px;
+    }
+    .news-excerpt p {
+        min-height: 4.6rem;
+    }
+    .footer .footer-icons-right {
+        text-align: left;
+    }
+    .footer i {
+        margin-left: 0rem;
+        margin-right: 0.6rem;
+        margin-bottom:1.5rem;
+    }
+    .footer ul {
+        margin-top: 0rem;
+    }
+}
+@media only screen and (max-width: 620px){
+    .carousel-generic .carousel-item > img {
+        object-fit: cover;
+        height: 300px;
+    }
+    .top-header .logo {
+        width: 100%;
+    }
+    .top-header .top-header-links {
+        display:none;
+    }
+    .mobile-header-links {
+        display:block;
+    }
+    .top-header .logo img {
+        padding-top: 0.7rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-header {
+        height: 108px;
+    }
+    .page-title {
+        width: 95%;
+    }
+    .page-title-underline-90 {
+        width: 5%;
+    }
+    .page-title-52 {
+        width: 100%;
+    }
+    .page-title-underline-52 {
+        width: 15%;
+    }
+    .hamburger {
+        padding: 10px 10px 4px 10px;
+    }
+    .generic-heading-large {
+        font-size: 2.1rem;
+    }
+    .footer {
+        padding: 2.8rem 0px 6.5rem 0;
+    }
+    .top-header {
+        height: auto;
+    }
+    .top-header p {
+        margin-bottom:0;
+    }
+    .restoration-list li {
+        display: block;
+        margin-bottom: 0.7rem;
+        line-height: 1.5rem;
+    }
+    .restoration-list li:first-child::before {
+        display:inline;
+    }
+}
+@media only screen and (max-width: 575px){
+    .three-images img {
+        margin-top:1.6rem;
+        margin-bottom:0rem;
+    }
+    .some-of-the-work {
+        margin-top:2.5rem;
+    }
+    .carousel-news .carousel-item > img {
+        top: 0px;
+    }
+    .news-detail-subheading {
+        padding-right: 0rem;
+        font-size: 1.2rem;
+    }
+    .news-excerpt p {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .top-header .logo {
+        width: 92%;
+    }
+    .top-header .logo img {
+        width: 100%;
+    }
+    .top-header .strapline {
+        font-size: 1.03rem;
+        padding: 0px 2rem;
+        margin-top: 0.7rem;
+        line-height: 1.4rem;
+    }
+    .generic-heading-large {
+        font-size: 1.75rem;
+        margin-top: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+    .carousel .carousel-item {
+        // height: 30.2rem;
+        height:52vh;
+    }
+    .carousel .carousel-item .home-carousel-img {
+        height: 52vh;
+    }
+    .home-heading-large {
+        font-size: 1.6rem;
+    }
+    .fourtabbed .fourtabbedbox:hover .gallery-image-hover {
+        & p {
+            font-size:1rem;
+            line-height:1.25rem;
+        }
+    }
+    .footer .footer-logo {
+        width: 100%;
+    }
+    .mobile-header-links .tel {
+        width: 170px;
+    }
+    .carousel {
+        width: 99.7%;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.1rem 0.5rem;
+    }
+    .heading:before, .heading:after {
+        display:none;
+        margin: 0px 0px;
+    }
+    h1, h3 {
+        display:block;
+    }
+    .navbar .navbar-toggler {
+        margin-bottom: 0rem;
+    }
+}
+@media only screen and (max-width: 414px){
+    .carousel-generic .carousel-item, .carousel-news .carousel-item {
+        height: 22vh;
+    }
+    .carousel-generic .carousel-item > img {
+        object-fit: cover;
+        height: 280px;
+    }
+    .carousel-news .carousel-item > img {
+        top: 0px;
+        object-fit: cover;
+        height: 280px;
+    }
+    .mobile-header-links .tel {
+        width: 45%;
+    }
+    .mobile-header-links .tel {
+        font-size: 0.85rem;
+        padding: 0.3rem 1.3rem 0.3rem 2.4rem;
+    }
+    .mobile-header-links i {
+        font-size: 1.1rem;
+    }
+    .top-header .strapline {
+        font-size: 0.94rem;
+        padding: 0px 0.9rem;
+    }
+    .generic-heading-large {
+        font-size: 1.5rem;
+    }
+    .page-title-underline {
+        width: 25%;
+        margin-top: 1.99rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    h1 {
+        font-size: 1.95rem;
+    }
+    .home-heading-large {
+        font-size: 1.8rem !important;
+    }
+    .mobile-header-links .tel {
+        font-size: 0.78rem;
+        padding: 0.3rem 1.3rem 0.3rem 2.4rem;
+    }
+}

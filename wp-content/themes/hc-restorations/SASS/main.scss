@@ -1,0 +1,107 @@
+// COLOR VARIABLES
+$white: #fff;
+$black: #150000;
+$light-gold: #c7a67b;
+$dark-gold: rgb(144 106 76);
+$darker-gold: rgb(116 75 43);
+$red-burgundy: #6e0707;
+$mid-burgundy: #540606;
+$dark-burgundy: #340202;
+$lighter-grey: #bebebe;
+$light-grey: #7c7c7c;
+$mid-grey: #36393d;
+$dark-grey: #282a2d;
+$darker-grey: #212326;
+
+body {
+    padding: 0px;
+    margin:0px;
+    font-size:16px;
+    color: $white;
+    background: $mid-burgundy;
+    text-align:center;
+    font-family: 'PT Serif', serif;
+}
+p {
+    line-height:1.7rem;
+}
+a {
+    color:$white;
+    &:hover {
+        color:$white;
+        // text-decoration:none;
+    }
+    &:active {
+        color:$white;
+    }
+    &:focus {
+        color:$white;
+    }
+    &:visited {
+        color:$white;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    color:$white;
+    font-weight: 300;
+}
+hr {
+    margin-top:2rem;
+    border-top: 2px solid $dark-gold;
+}
+.page {
+    margin:0 !important;
+}
+.main-content {
+    width:100%;
+    background-image:url(/wp-content/themes/hc-restorations/images/body-bg.jpg);
+    background-repeat:repeat-x;
+    padding-top:2.2rem;
+    padding-bottom:2.2rem;
+}
+.main-content-inner {
+    max-width:1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.floral-symbol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// HEADER STYLES
+@import "pages/header";
+
+// FOOTER STYLES
+@import "pages/footer";
+
+// HOME PAGE MAIN STYLES
+@import "pages/home";
+
+// HOME PAGE FOURTABBED STYLES
+@import "pages/fourtabbed";
+
+// FORMS
+@import "pages/form";
+
+// GENERIC PAGE MAIN STYLES
+@import "pages/contact";
+
+// GENERIC MAIN STYLES
+@import "pages/generic";
+
+// RESTORATION PAGE MAIN STYLES
+@import "pages/restoration";
+
+// GALLERY PAGE MAIN STYLES
+@import "pages/gallery";
+
+// NEWS PAGE MAIN STYLES
+@import "pages/news";
+
+// 404 PAGE MAIN STYLES
+@import "pages/404";
+
+// MEDIAQUERIES
+@import "pages/mediaqueries";

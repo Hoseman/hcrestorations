@@ -1,0 +1,93 @@
+.gallery-image {
+    border:2px solid $dark-gold;
+}
+.before-after-pic {
+    width:100%;
+    border:2px solid $dark-gold;
+}
+.btn-return {
+    background:$dark-gold;
+    color:$white;
+    font-family: 'Cinzel', serif;
+    padding: 1rem 2rem;
+    margin: 1.2rem 0 1.4rem 0;
+    border-radius: 0;
+    &:hover {
+        background:$darker-gold;
+        color:$white;
+    }
+    &:focus {
+        box-shadow: none;
+        color:$white;
+    }
+    &:active {
+        color:$white;
+    }
+    &:visited {
+        color:$white;
+    }
+}
+.before-after-flash {
+    background:$light-gold;
+    color:$red-burgundy;
+    position: absolute;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    width: 100px;
+    height: 100px;
+    right: 15px;
+    z-index: 9;
+}
+.before-after-text {
+    transform: rotate(45deg);
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#before {
+    filter: grayscale(0.25);
+}  
+.post-navigation .nav-previous {
+    text-align:left;
+    & a {
+        color:$light-gold;
+        font-family: 'Cinzel', serif;
+        transition:all 0.15s ease-in;
+        &:hover {
+            text-decoration:none;
+            color:$dark-gold;
+        }
+        &:hover .nav-subtitle:before {
+            color: $dark-gold;
+            padding: 1rem 1.3rem 1rem 0.7rem;
+        }
+    }
+    & .nav-subtitle:before {
+        font-family: FontAwesome;
+        content: "\f053";
+        color:$light-gold;
+        padding:1rem;
+    }
+}
+.post-navigation .nav-next {
+    text-align:right;
+    & a {
+        color:$light-gold;
+        font-family: 'Cinzel', serif;
+        transition:all 0.15s ease-in;
+        &:hover {
+            text-decoration:none;
+            color:$dark-gold;
+        }
+        &:hover .nav-subtitle:after {
+            color: $dark-gold;
+            padding: 1rem 0.7rem 1rem 1.3rem;
+        }
+    }
+    & .nav-subtitle:after {
+        font-family: FontAwesome;
+        content: "\f054";
+        color:$light-gold;
+        padding:1rem;
+    }
+}    

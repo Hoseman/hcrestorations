@@ -1,2 +1,5 @@
-# hcrestorations
-HC Restorations Wordpress Site
+# HC Restorations
+HC Restorations Custom Wordpress Theme
+<hr>
+https://hcrestorations.co.uk
+<hr>
